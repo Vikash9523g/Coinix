@@ -1,0 +1,58 @@
+.mains {
+  margin-top: 4rem;
+  display: block;
+}
+
+.box {
+  max-width: 1220px;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.heading h2{
+    font-size: 3rem;
+    font-weight: 500;
+  color: #0E2026;
+  line-height: 1.14;
+}
+
+.heading h6{
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: rgba(14, 32, 38, 0.6);
+}
+
+.cards{
+  height: 500px;
+  margin-top: 48px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  /* overflow: hidden; */
+}
+
+@media only screen and (max-width: 600px) {
+
+  .heading h2{
+    font-size: 1.3rem;
+  }
+
+  .heading h6{
+    font-size: 1rem;
+  }
+
+  .cards{
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+}
